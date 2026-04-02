@@ -176,6 +176,7 @@ export interface BIProjectRequest {
     orgName?: string;
     version?: string;
     isLibrary?: boolean;
+    projectHandle?: string;
 }
 
 export interface SemanticVersion {
